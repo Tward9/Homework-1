@@ -1,13 +1,16 @@
+/* universal selector, sets elements to include padding and margin in width  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* sets background of page */
 body {
     background-color: #d9dcd6;
 }
 
+/* set color, background, and fonts of header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/*sets display for company name in header*/
 #companyname {
     display: inline-block;
     font-size: 48px;
 }
 
-.seo {
+/* applies specfic color for letters s, e, o*/
+#seo {
     color: #d9dcd6;
 }
 
+/* aligns list items to the right, sets font, size, and box size */
 #navbar {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ header {
     font-size: 20px;
 }
 
+/* removes bullet points from list items */
 .navlink {
     list-style-type: none;
 }
 
+/* moves list items to inline, sets spacing */
 .navlink li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* sets link colors */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* paragraph font sizes */
 p {
     font-size: 16px;
 }
 
+/* size and location info for main image */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,22 +69,26 @@ p {
     background-position: center;
 }
 
+/* aligns article images to the left when applied */
 .image-left {
     float: left;
     margin-right: 25px;
 }
 
+/* aligns article images to the right when applied */
 .image-right {
     float: right;
     margin-left: 25px;
 }
 
+/* sets size and spacing of article blocks */
 article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* aligns aside elements, applies margin and padding, fonts */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,6 +100,7 @@ article {
     background-color: #2589bd;
 }
 
+/*  */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;

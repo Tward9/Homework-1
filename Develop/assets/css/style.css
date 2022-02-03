@@ -100,56 +100,27 @@ article {
     background-color: #2589bd;
 }
 
-/*  */
-.benefit-lead {
+/* applies size and color formating to text in the benefits section on the aside */
+.benefit-text {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* applies magin and alignment to the heading in the benefits section on the aside */
+.benefit-heading {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* applies formats the display type, location, and margin of the images in the benefits section on the aside */
+.benefit-img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* applies font, color, shape, and size to the article elements */
+.article-paragraph {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -158,51 +129,18 @@ article {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* sets image size for the different images in the article sections */
+.article-paragraph img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* sets header sizes for the different titles in the article sections */
+.article-paragraph h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* sets size, shape, alignment, and spacing for the footer text */
 footer {
     padding: 30px;
     clear: both;
@@ -210,6 +148,7 @@ footer {
     text-align: center;
 }
 
-.close {
+/* sets text size for header text in footer */
+#close {
     font-size: 20px;
 }
